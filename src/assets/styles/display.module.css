@@ -1,0 +1,18 @@
+.coin_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    border-bottom: 2px solid white;
+    padding: 20px;
+}
+.grid_items{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.grid_items>img{
+    max-width: 20px;
+    height: auto;
+}
+
